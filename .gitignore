@@ -1,0 +1,14 @@
+# Terragrunt-generated files
+.terragrunt-cache
+*.tf
+.terraform
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Logs
+*.log
+
+# Exclude tfvars files that may contain sensitive data
+*.tfvars
+

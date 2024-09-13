@@ -12,5 +12,5 @@ variable "file_contents" {
 
 resource "local_file" "generated" {
   content  = var.file_contents
-  filename = "${var.env}_${var.filename}.log"
+  filename = "${path.module}/${var.env}_${var.filename}.log"
 }

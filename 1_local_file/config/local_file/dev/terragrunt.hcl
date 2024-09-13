@@ -3,7 +3,7 @@ include {
 }
 
 terraform {
-  source = "../../modules/local_file"
+  source = "../../../modules/local_file"
 }
 
 inputs = {
